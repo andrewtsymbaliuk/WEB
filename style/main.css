@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #FBF2EF;
+    width: 1350px !important;
+    min-width: 100%;
+    height: 800px;
+}
+#menu {
+    list-style: none;
+    background-color: #F3F781;
+    float: start;
+
+}
+#menu .list-item{
+    font-family: 'Montserrat SemiBold', sans-serif;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 40px;
+
+}
+#menu .list-item a {
+    display: block;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #252525;
+}
+#menu .list-item a:hover {
+    background-color: #F79F81;
+    color: black; }
+#menu h1{
+    font-family: 'Montserrat Black', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#info{
+    background: #CECEF6;
+    list-style: none;
+    border: 1px solid black;
+    height: 100px;
+    width: 100%;
+    text-decoration: none;
+}
+#info p{
+    font-size: 30px;
+    font-family: 'Montserrat Black', sans-serif;
+    color: #252525;
+}
+#info a{
+    font-size: 30px;
+    font-family: 'Montserrat', cursive;
+    color: #252525;
+}
+#title{
+    background:#F5BCA9;
+    max-height: 420px;
+    border-bottom: 2px solid black;
+}
+.title2_header{
+    margin-left: 40px;
+    font-family: 'Montserrat ', cursive;
+    font-size: 20px;
+    letter-spacing: 60px;
+    color: #252525;
+
+}
+.logo_oa{
+    padding-top: 15px;
+    text-align: center;
+}
+.title{
+    font-family: 'Montserrat Black', monospace;
+    color: #252525 ;
+    letter-spacing: 15px;
+    font-size: 60px;
+    padding: 40px;
+}
+.dedlayn{
+    text-align: start;
+    font-size: 50px;
+    margin-left: 20px;
+}
+.place{
+    margin-top: 20px;
+    text-align: end;
+    font-size: 50px;
+    margin-right:  20px;
+}
+.content h1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.content h5{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', cursive;
+}
+.info_oa{
+    border: 5px solid #252525;
+    margin-top: 60px;
+    font-family: 'Montserrat SemiBold', sans-serif;
+    font-size: 20px;
+}
+.info_food{
+    margin-top: 60px;
+    font-family: 'Montserrat Medium', sans-serif;
+    font-size: 20px;
+    margin-bottom: 40px;
+    border: 1px solid #252525;
+}
+.date-oa{
+    font-family: 'Montserrat Black', sans-serif;
+    font-size: 40px;
+    padding: 40px;
+}
+.blurb{
+    height: 300px;
+    background: #CECEF6;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border: 1px solid black;
+}
+.price{
+    font-family: 'Montserrat ', cursive;
+    color: #252525;
+    padding-bottom: 10px;
+}
