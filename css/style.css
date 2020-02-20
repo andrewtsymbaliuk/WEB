@@ -1,0 +1,46 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    height: 2000px;
+    border: 1px solid black;
+
+}
+.menu{
+    background-color: #02AF8C;
+    width: 25%;
+    max-width: 270px;
+    border: 1px solid black;
+}
+.nav-bar{
+    padding-top: 5px ;
+    text-align:center;
+    color: #F2F3F4;
+    border: 1px solid black;
+    font-family: 'Montserrat Black', cursive;
+    font-size: 25px;
+}
+.nav-link{
+    text-align: start;
+}
+.nav-link button{
+    border: 2px solid #252525;
+    margin: 10px;
+}
+
+.main{
+    flex-direction: column;
+    width: 90%;
+    border: 1px solid black;
+}
+.header{
+    border: 1px solid black;
+}
+.content{
+    border: 1px solid black;
+}
+.ads{
+    border: 1px solid black;
+}
+.footer{
+    border: 1px solid black;
+}

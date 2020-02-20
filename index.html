@@ -2,187 +2,42 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Lab1_WEB</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Головна - Lab1_WEB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600,700,900&display=swap" >
-    <link rel="stylesheet" type="text/css" href="style/main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-2 text-center" id="menu">
-                <h1>Навігація</h1>
-                 <li class="list-item"  >
-                     <a  href="index.html">Головна</a>
-                 </li>
-                 <li class="list-item">
-                     <a  href="#" data-toggle="modal" data-target="#BuyTickets">Купити квитки<span class="sr-only">(current)</span></a>
-                 <li class="list-item">
-                     <a href="DJ.html">Учасники</a>
-                 </li>
-                 <li class="list-item">
-                     <a class="link-item" data-toggle="modal" data-target="#Information" href="#">Інформація</a>
-                 </li>
+    <body>
+        <div class="wrapper">
+            <div class="menu">
+                <div class="nav-bar">
+                    <p>Навігація</p>
+                    <div class="nav-link">
+                        <button class="btn btn-light">Головна</button>
+                        <button class="btn btn-light">Учасники</button>
+                        <button class="btn btn-light">Купити квитки</button>
+                        <button class="btn btn-light">Інформація</button>
+                    </div>
+                </div>
             </div>
-            <div class="col-10" id="main">
-                <div class="row">
-                    <header id="title">
-                        <p class="logo_oa">
-                            <a href="index.html">
-                                <img src="img/logo.png "  alt="logo">
-                            </a>
-                        </p>
-
-                        <p class="title2_header text-center" >Наймаштабніша молодіжна тусовка Києва цього року</p>
-                    </header>
+            <div class="main">
+                <header class="header">
+                    dfgdfg
+                </header>
+                <div class="content">
+                    dfgdfgd
                 </div>
-                <div class="row">
-                    <div class="col-12">
-                        <article class="content">
-                            <h1 class="title text-center" >Open Air Fest</h1>
-                            <h1 class="text-center date-oa" >14.04.2020</h1>
-                            <p class="dedlayn">
-                                <img src="img/dedlayn.jpg" height="500" width="500">
-                                Перерва закінчена!
-                            </p>
-                            <h1 class="text-center">Правила гри змінюються</h1>
-                            <h5 class="text-center">Вже цього літа відбудеться четвертий - Open Air </h5>
-                            <p class="place">
-                                Секретна локація
-                                <img src="img/secret-place.jpg" height="500" width="500">
-                            </p>
-                            <div class="info_oa text-center">
-                                <p>
-                                    Унікальний плейс, від якого скоро залишаться тільки спогади.
-                                    <br>Унікальна сцена, тонни звуку, світла, екранів і спец.
-                                    ефектів, які змусять вас відкрити камеру в телефоні!</p>
-
-                            </div>
-
-                            <div class="info_food text-center">
-                                <p> Бар і ціни на ньому, змусять вас плакати від щастя!</p>
-                                <p>+ Додамо їжу і смачні кальяни по балдёжной ціною!</p>
-                                <p>Поступово ми будемо розповідати Вам про Line up, про атмосферу,</p>
-                                <p>про локацію і про те що ми плануємо зробити для Вас.</p>
-                                <p>Це буде наймасштабніша молодіжна Вечірка в місті!</p>
-                            </div>
-                        </article>
-                    </div>
+                <div class="ads">
+                    dfgdfgsfs
                 </div>
-                <div class="row">
-                    <div class="col-12">
-                        <aside class="blurb text-center">
-                            <h1>Тут могла бути ваша реклама...
-                            <img src="img/money.png" alt="money">
-                            </h1>
-                        </aside>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <footer class="rounded-top" id="info">
-                            <div class="row">
-                                <div class="col-8 text-center">
-                                    <p>Цимбалюк Андрій КВ-72 Варіант-16</p>
-                                </div>
-                                <div class="col-4">
-                                    <li>
-                                        <a href="https://github.com/andrewtsymbaliuk">
-                                            <img src="img/github.png"  alt="github">    GitHub</a>
-                                    </li>
-                                </div>
-                            </div>
-
-                        </footer>
-                    </div>
-                </div>
+                <footer class="footer">
+                   fdgdfgdfdfd
+                </footer>
             </div>
         </div>
-        <div class="modal fade" id="BuyTickets"  tabindex="-1" role="dialog" aria-labelledby="TicketLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered  modal-md" role="document">
-                <div class="modal-content">
-                    <div class=" modal-header">
-                        <h5 class="modal-title" id="TicketLabel">Квитки</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="container-row">
-                            <div class="price text-center">
-                                <h3>Ціна квитка ХХХ грн.</h3>
-                                <h4>До підняття ціни: Х днів.</h4>
-                            </div>
-                            <form>
-                                <div class="input-group col-md-10 mb-4">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text " id="email">email</span>
-                                    </div>
-                                    <input type="text" class="form-control" aria-label="Email" aria-describedby="email">
-                                </div>
-                                <div class="input-group col-md-10 mb-4">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text " id="count">Кількість квитків</span>
-                                    </div>
-                                    <input type="text" class="form-control" aria-label="Count" aria-describedby="count">
-                                </div>
-                                <div class="input-group col-md-10 mb-4">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text " id="number_card">Номер картки</span>
-                                    </div>
-                                    <input type="text" class="form-control" aria-label="Number_card" aria-describedby="number_card">
-                                </div>
-                                <div class="input-group col-md-10 mb-4">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text " id="expir_card">Термін дії</span>
-                                    </div>
-                                    <input type="text" class="form-control" aria-label="Expir_card" aria-describedby="expir_card">
-                                </div>
-                                <div class="input-group col-md-10 mb-4">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text " id="cvv2_card">CVV2</span>
-                                    </div>
-                                    <input type="password" class="form-control" aria-label="Cvv2_card" aria-describedby="Cvv2_card">
-                                </div>
-
-                            </form>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <div class="container-fluid ">
-                            <div class="row justify-content-md-center">
-                                <button type="submit" class="btn- btn-success btn-lg" >Купити</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="Information"  tabindex="-1" role="dialog"  aria-labelledby="InformationLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered  modal-md" role="document">
-                <div class="modal-content">
-                    <div class=" modal-header">
-                        <h5 class="modal-title " id="InformationLabel">Інформація</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div  class="container-fluid">
-                            <h1 class="info_info text-center"> Сайт написаний за 6 годин.</h1>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <div class="container-fluid ">
-                            <button type="button" class="btn btn-secondary btn-lg"  data-dismiss="modal">Закрыть</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
 </html>
